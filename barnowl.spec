@@ -1,7 +1,8 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	A curses-based tty Jabber, IRC, AIM and Zephyr client
 Name:		barnowl
 Version:	1.8.1
-Release:	0.1
+Release:	0.2
 # Perl libraries LGPL v2.1
 License:	BSD, LGPL v2.1
 Group:		Applications/Communications
@@ -16,6 +17,7 @@ BuildRequires:	perl-Class-Accessor
 BuildRequires:	perl-Glib-devel
 BuildRequires:	perl-devel
 BuildRequires:	pkg-config
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	zip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
