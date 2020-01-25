@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	A curses-based tty Jabber, IRC, AIM and Zephyr client
 Name:		barnowl
 Version:	1.8.1
